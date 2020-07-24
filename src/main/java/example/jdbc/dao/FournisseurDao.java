@@ -1,7 +1,8 @@
-package fr.diginamic.jdbc.dao;
+package example.jdbc.dao;
 
 import java.util.List;
-import fr.diginamic.jdbc.entites.Fournisseur;
+
+import example.jdbc.entity.Fournisseur;
 
 public interface FournisseurDao {
     List<Fournisseur> extraire();
